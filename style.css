@@ -1,0 +1,118 @@
+:root{
+   --voilet: #432C7A;
+   --lvoilet:#80489C;
+   --lpink:#FF8FB1;
+   --beech:#FCE2DB;
+}
+body,h1{
+    margin:0;
+    font-family:Arial;
+}
+.whole{
+   background-image: url("images/bg3.jpg");
+   background-size:cover;
+
+   height:800px;
+}
+header a{
+ color:dar;
+    text-decoration: none;
+}
+header{
+    display:flex;
+    flex-direction:row;
+    background-color:var(--lpink);
+    height:200px;
+    align-items:center;
+
+}
+#samayal{
+    flex:3;
+    font-size:53px;
+    text-shadow: 2px 2px black;
+    
+}
+nav{
+    display:flex;
+    flex:2;
+    font-size:25px;
+    color:#80489C;
+    margin-right:100px;
+
+}
+
+
+nav a{
+    padding-left:30px;
+    text-shadow: 1px 1px black;
+    margin-top:20px;
+    background-color: var(--beech);
+   
+}
+
+
+nav a:hover{
+   color:aqua;
+}
+.loc{
+    border:2px solid black;
+    padding-right:20px;
+    border-radius:10px;
+
+}
+.men{ 
+    border:2px solid black;
+    padding-right:20px;
+    margin-left: 30px;
+    border-radius:10px;
+    
+}
+.maintext{
+    display:flex;
+    flex-direction:column;
+    height:400px;
+    justify-content:center;
+    padding:2em;
+    
+
+}
+.tagline1{
+color:darkgreen;
+font-size:32px;
+}
+.maintext div{
+    margin-top: 30px;
+}
+button{
+    height:50px;
+    font-family:serif;
+    
+    width: 200px;
+    border-radius:10px;
+    padding:10px;
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: var(--beech);
+}
+.tagline2{
+    color:var(--voilet);
+    font-size:20px;
+}
+.callus{
+    color:black;
+}
+.menu{
+    display:flex;
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    justify-content: space-evenly;
+    height:500px;
+    align-items: center;
+
+
+}
+h1{
+    color:red;
+    
+    text-align:center;
+    font-size:50px;
+}
